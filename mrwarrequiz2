@@ -1,0 +1,58 @@
+#!/bin/bash
+
+clear
+
+echo "Welcome to the Mr. Warren quiz! Let's see how well you know Mr. Warren."
+
+# Define the function to ask a question
+ask_question() {
+
+    echo "What is Mr. Warren's first name?"
+    echo "(A) Micheal"
+    echo "(B) James"
+    echo "(C) Sam"
+    echo "(D) Frank"
+
+
+    # Read user input and assign it to the 'answer' variable
+    read -p "Please enter your answer (A/B/C/D): " answer
+
+    # Convert the answer to uppercase to handle both lowercase and uppercase inputs
+    answer=$(echo "$answer" | tr '[:lower:]' '[:upper:]')
+
+    # Handle the user's answer using a case statement
+    case $answer in
+        A) echo "Incorrect! Try again." ;;
+        B) echo "Correct!!! Good job, move on to the next question." ;;
+        C) echo "Incorrect! Try again." ;;
+        D) echo "Incorrect! Try again." ;;
+        *) echo "Invalid choice! Please choose either A, B, C, or D." ;;
+    esac
+clear
+    echo "What is Mr. Warren's rule about food in the class room?"
+    
+    echo "(A) food is encouraged to be brought into the class room matter fact mr warren begs for food to be brought in the class"
+    echo "(B) no food allowed unless you ask permission"
+    echo "(C) absaoulutley no food allowed under no circumstanced (rules dont apply for mr warren) "
+    echo "(D) food is not allowed if you are under five feet 6 inches tall"
+ 
+
+    # Read user input and assign it to the 'answer' variable
+    read -p "Please enter your answer (A/B/C/D): " answer
+
+    # Convert the answer to uppercase to handle both lowercase and uppercase inputs
+    answer=$(echo "$answer" | tr '[:lower:]' '[:upper:]')
+
+    # Handle the user's answer using a case statement
+    case $answer in
+        A) echo "Incorrect! Try again." ;;
+        B) echo "Incorrect! Try again." ;;
+        C) echo "correct !!!! good job move onto the next question." ;;
+        D) echo "Incorrect! Try again." ;;
+        *) echo "Invalid choice! Please choose either A, B, C, or D." ;;
+    esac
+
+}
+
+# Call the function to ask the question
+ask_question

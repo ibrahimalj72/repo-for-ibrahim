@@ -1,0 +1,117 @@
+
+                                                                  .x+=:.                                     s                  .x+=:.   
+                                                    ..           z`    ^%                                   :8                 z`    ^%  
+                           .u    .      .u    .    @L               .   <k       u.    u.          u.      .88                    .   <k 
+     uL           u      .d88B :@8c   .d88B :@8c  9888i   .dL     .@8Ned8"     x@88k u@88c.  ...ue888b    :888ooo      .u       .@8Ned8" 
+ .ue888Nc..    us888u.  ="8888f8888r ="8888f8888r `Y888k:*888.  .@^%8888"     ^"8888""8888"  888R Y888r -*8888888   ud8888.   .@^%8888"  
+d88E`"888E` .@88 "8888"   4888>'88"    4888>'88"    888E  888I x88:  `)8b.      8888  888R   888R I888>   8888    :888'8888. x88:  `)8b. 
+888E  888E  9888  9888    4888> '      4888> '      888E  888I 8888N=*8888      8888  888R   888R I888>   8888    d888 '88%" 8888N=*8888 
+888E  888E  9888  9888    4888>        4888>        888E  888I  %8"    R88      8888  888R   888R I888>   8888    8888.+"     %8"    R88 
+888E  888E  9888  9888   .d888L .+    .d888L .+     888E  888I   @8Wou 9%       8888  888R  u8888cJ888   .8888Lu= 8888L        @8Wou 9%  
+888& .888E  9888  9888   ^"8888*"     ^"8888*"     x888N><888' .888888P`       "*88*" 8888"  "*888*P"    ^%888*   '8888c. .+ .888888P`   
+*888" 888&  "888*""888"     "Y"          "Y"        "88"  888  `   ^"F           ""   'Y"      'Y"         'Y"     "88888%   `   ^"F     
+ `"   "888E  ^Y"   ^Y'                                    88F                                                        "YP'                
+.dWi   `88E                                              98"                                                                             
+4888~  J8%                                             ./"                                                                               
+ ^"===*"`                                             ~`                                                                                 
+
+
+
+
+
+------------------------------------------------------------------
+			    linux commands
+------------------------------------------------------------------
+
+
+nano = a note pad that runs in the terminal
+
+pwd = print working directory shows where u are in the terminal
+
+ls = List displays the files and directories in the current directory
+
+cd = Change directory move into the specified directory
+
+cd .. = up one directoery level
+
+mkdir = make new directory
+
+touch = create a new empty file
+
+bash = ping
+
+ctrl + C = cancel command
+
+bash = executes commands and runs scripts
+
+-----------------------------------------------------------------
+			networking 
+-----------------------------------------------------------------
+
+
+
+ping = tests connection from host to a destination
+
+
+nmap = identifies active hosts and scans ports
+
+
+traceroute = traces the route packets take to a destination
+
+netstat = Display network connections and open ports
+
+----------------------------------------------------------------
+			file permission
+----------------------------------------------------------------
+
+ch mod = change file permissions using nurmeric codes 
+
+chown = changes the files ownership
+
+ls -l = veiw file permission
+
+--------------------------------------------------------------
+		process managment
+--------------------------------------------------------------
+
+
+kill = deletes evrything in the terminal basically just clears the terminal
+
+
+free =  shows how much memory u have in ur ram and swap
+
+
+du = shows different directry sizes
+
+--------------------------------------------------------------
+		git commands
+--------------------------------------------------------------
+
+git init = Initialize a new Git repository.
+
+
+git commit -m "[message]" = Commit the staged changes with a descriptive message.
+
+
+git pull = Fetch changes from the remote repository and merge them into the current branch.
+
+
+git push = Upload local changes to the remote repository.
+
+
+git merge [branch-name] = Merge a specified branch into the current branch.
+
+
+
+git log = View the commit history.
+
+-----------------------------------------------------------
+		bash scripting
+-----------------------------------------------------------
+bash scripting is a series of commands that run simultaniously in order and all link up and when ran exicute what your tryna do
+
+echo = repeats what you wrote infront of it 
+
+read = Reads input from the user.
+
+ls = Lists the contents of a directory
